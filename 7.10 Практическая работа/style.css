@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: #444;
+    padding: 10px;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  section {
+    flex: 1 1 100%;
+  }
+  
+  section#rooms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  section#rooms ul,
+  section#rooms article {
+    flex: 1; 
+  }
+  
+  section#accommodation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  section#accommodation article {
+    flex: 1 1 300px; 
+  }
+  
+  section#logs-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  section#rooms-price {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  section#booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="number"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  address {
+    margin-bottom: 10px;
+  }
+
+section {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    margin-bottom: 10px;
+  }
+  
+  section ul {
+    list-style-type: none;
+  }
+  
+  section ul li {
+    padding: 5px 0;
+  }
+  
+  section ul li:last-child {
+    padding-bottom: 0;
+  }
+  
+  section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  
