@@ -1,0 +1,66 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --link-hover-color: #dc3545;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .grid-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+  
+  .grid-item:nth-child(3n) {
+    margin-right: 0;
+  }
+  
+  a, button {
+    transition: background-color 0.3s ease, color 0.2s linear;
+  }
+  
+  a:hover, button:hover {
+    background-color: var(--link-hover-color);
+    color: #fff;
+  }
+  
+  a:active, button:active {
+    background-color: var(--secondary-color);
+    color: #fff;
+  }
+  
+  a:focus, button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--primary-color);
+  }
+  
+  .options-content {
+    position: relative;
+  }
+  
+  .options-content::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .options-content a {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .darken {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
