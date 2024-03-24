@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Отели</title>
+</head>
+<body>
+  <div class="site-container">
+    <header class="header">
+    </header>
+    <main class="main">
+    </main>
+    <section class="form-section">
+      <div class="container">
+        <h2 class="title">I want a tour</h2>
+        <form id="tourForm" class="tour-form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+          <div class="form-group">
+            <label for="tourists">Tourists <span>*</span></label>
+            <input type="text" id="tourists" name="tourists" required>
+          </div>
+          <div class="form-group">
+            <label for="tourDate">Tour Date</label>
+            <input type="date" id="tourDate" name="tourDate">
+          </div>
+          <div class="form-group">
+            <label for="tourLocation">Tour Location</label>
+            <input type="text" id="tourLocation" name="tourLocation">
+          </div>
+          <button type="submit" class="form-btn">Submit</button>
+        </form>
+      </div>
+    </section>
+    <section class="contacts">
+      <div class="container">
+        <h2 class="title">Contacts</h2>
+        <p>Email: example@example.com</p>
+        <p>Phone: +7 934 567 890</p>
+      </div>
+    </section>
+  </div>
+  <footer class="footer">
+    </div>
+  </footer>
+  <!--let in this code for new work if need!!!-->
+  <script src="test/script.js"></script>
+</body>
+</html>
