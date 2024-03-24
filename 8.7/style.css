@@ -1,38 +1,33 @@
-/* Reset default margin and padding */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* Box-sizing border-box for easier layout */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* Body styles */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5f5f5; /* Background color for the body */
+  background-color: #f5f5f5;
 }
 
-/* Global styles for containers */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
-/* Header styles */
 .header {
-  background-color: #ffffff; /* Background color for the header */
+  background-color: #ffffff;
   padding: 10px 0;
-  border-bottom: 1px solid #ddd; /* Separator line */
+  border-bottom: 1px solid #ddd;
 }
 
 .header__logo img {
-  max-width: 150px; /* Adjust logo size as needed */
+  max-width: 150px;
 }
 
 .header__phone {
@@ -55,17 +50,15 @@ body {
 
 .header__link {
   text-decoration: none;
-  color: #333; /* Link color */
+  color: #333;
 }
 
-/* Main styles */
 .main {
   padding: 20px 0;
 }
 
-/* Fast order section */
 .fast-order {
-  background-color: #f9f9f9; /* Background color for the section */
+  background-color: #f9f9f9;
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -92,43 +85,41 @@ body {
 
 .form-btn {
   padding: 5px 10px;
-  background-color: #333; /* Button background color */
-  color: #fff; /* Button text color */
+  background-color: #333;
+  color: #fff;
   border: none;
   cursor: pointer;
 }
 
 .form-btn:hover {
-  background-color: #555; /* Hover background color */
+  background-color: #555;
 }
 
 .form-text {
   margin-left: 10px;
 }
 
-/* Offer section */
 .offer {
-  background-color: #f9f9f9; /* Background color for the section */
+  background-color: #f9f9f9;
   padding: 20px;
   margin-bottom: 20px;
 }
 
 .offer-article {
-  border: 1px solid #ddd; /* Border for the offer */
+  border: 1px solid #ddd;
   padding: 10px;
   margin-bottom: 15px;
 }
 
 .offer-link {
   text-decoration: none;
-  color: #333; /* Link color */
+  color: #333;
 }
 
 .offer-link:hover {
-  color: #555; /* Hover color for link */
+  color: #555;
 }
 
-/* About section */
 .about {
   padding: 20px;
   margin-bottom: 20px;
@@ -140,19 +131,18 @@ body {
 
 .about__btn {
   padding: 8px 15px;
-  background-color: #333; /* Button background color */
-  color: #fff; /* Button text color */
+  background-color: #333;
+  color: #fff;
   text-decoration: none;
 }
 
 .about__btn:hover {
-  background-color: #555; /* Hover background color */
+  background-color: #555;
 }
 
-/* Services section */
 .services {
   padding: 20px;
-  background-color: #f9f9f9; /* Background color for the section */
+  background-color: #f9f9f9;
   margin-bottom: 20px;
 }
 
@@ -163,7 +153,7 @@ body {
 }
 
 .services__item {
-  background-color: #fff; /* Background color for service items */
+  background-color: #fff;
   padding: 15px;
   border-radius: 5px;
 }
@@ -172,10 +162,9 @@ body {
   margin-bottom: 10px;
 }
 
-/* Advantages section */
 .advantages {
   padding: 20px;
-  background-color: #f9f9f9; /* Background color for the section */
+  background-color: #f9f9f9;
   margin-bottom: 20px;
 }
 
@@ -186,15 +175,14 @@ body {
 }
 
 .advantages__item {
-  background-color: #fff; /* Background color for advantage items */
+  background-color: #fff;
   padding: 15px;
   border-radius: 5px;
 }
 
-/* Placement section */
 .placement {
   padding: 20px;
-  background-color: #f9f9f9; /* Background color for the section */
+  background-color: #f9f9f9;
 }
 
 .placement__list {
@@ -204,12 +192,11 @@ body {
 }
 
 .placement__item {
-  background-color: #fff; /* Background color for placement items */
+  background-color: #fff;
   padding: 15px;
   border-radius: 5px;
 }
 
-/* Add decorative images using the background property */
 .article__top {
   display: flex;
   justify-content: space-between;
@@ -222,20 +209,20 @@ body {
 }
 
 .article__stars img {
-  width: 20px; /* Adjust star icon size */
+  width: 20px;
 }
 
 .article__btn {
   padding: 8px 15px;
-  background-color: #333; /* Button background color */
-  color: #fff; /* Button text color */
+  background-color: #333;
+  color: #fff;
   border: none;
   cursor: pointer;
   border-radius: 5px;
 }
 
 .article__btn:hover {
-  background-color: #555; /* Hover background color */
+  background-color: #555;
 }
 
 .all-variants {
@@ -243,10 +230,10 @@ body {
   text-align: center;
   margin-top: 10px;
   text-decoration: none;
-  color: #333; /* Link color */
+  color: #333;
   font-weight: bold;
 }
 
 .all-variants:hover {
-  color: #555; /* Hover color for link */
+  color: #555;
 }
